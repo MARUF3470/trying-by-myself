@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Patient info</title>
+    <link rel="stylesheet" href="hospital.css">
+</head>
+<body>
+    <h1>Submit Patients Information</h1>
+    <form>
+        <label for="name">Patient's Name:</label>
+        <input type="text"><br><br>
+        <label for="age">Age</label>
+        <input type="number"><br><br>
+        <label for="number">Phone Number</label>
+        <input type="tel"><br><br>
+        <span>Gender</span>
+        <input type="radio"value="Male"name="gender">Male
+        <input type="radio"value="Female"name="gender">Female
+        <input type="radio"value="Other"name="gender">Other
+        <br><br>
+        <label for="diseases">Diseases</label><br>
+        <input type="checkbox"value="Blood pressure">Blood pressure <br>
+        <input type="checkbox"value="diabetics">diabetics <br>
+        <input type="checkbox"values="gastic">gastic <br>
+        <label for="report">Add previous reports if you have any</label>
+        <input type="file">
+        <br><br>
+        <div style="background-color: rgba(38, 37, 37, 0.264);border:2px solid black;width: 30%;">
+            <span>Previous experiance metter</span>
+            <input type="range">
+        </div>
+        <br>
+        <input type="submit">
+        <input type="reset">
+        <br><br>
+        
+    </form>
+    <a href="Hospitalmanagement.html"><button>Click it after submit your patient information</button></a>
+</body>
+</html>
